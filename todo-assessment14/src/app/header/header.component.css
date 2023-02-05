@@ -1,0 +1,19 @@
+div {
+    height: 20vh;
+    background-color: rgb(219, 213, 208);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+button{
+    display: flex;
+    float: right;
+    width: 58px;
+    height: 31px;
+    margin-right: 62px;
+    justify-content: space-around;
+    padding: 0px;
+    align-items: center;
+}

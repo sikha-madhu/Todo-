@@ -1,0 +1,5 @@
+<div>
+    Subject : <app-input [placeholderfromheader]="subject" (childToParent)="handleSubject($event)"></app-input><br>
+    Description :<app-input [placeholderfromheader]="description" (childToParent)="handleDesc($event)"></app-input><br>
+    <button (click)="handleClick()">ADD</button>
+</div>
